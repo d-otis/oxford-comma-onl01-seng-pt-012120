@@ -14,6 +14,7 @@ def oxford_comma(array)
     comma_and = ", and "
     last_element = array.pop
     array.join(', ')
+    binding.pry
     array.push(comma_and)
   end
 end
