@@ -17,6 +17,7 @@ def oxford_comma(array)
     # binding.pry
     array.push(comma_and)
     array.push(last_element)
+    array.join()
     binding.pry
   end
 end
