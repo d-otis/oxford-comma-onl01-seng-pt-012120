@@ -13,3 +13,5 @@ def oxford_comma(array)
     array.push(comma_and)
   end
 end
+
+oxford_comma()
