@@ -15,7 +15,7 @@ def oxford_comma(array)
     comma_and = ", and"
     last_element = array.pop
     str = array.join(", ")
-    new_arr << array
+    new_arr << str
     # array << comma_and
     binding.pry
     array << last_element
