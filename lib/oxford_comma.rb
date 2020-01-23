@@ -12,7 +12,7 @@ def oxford_comma(array)
     # join remaining array with commas
     # add last element again with proper English syntax
     new_arr = []
-    comma_and = ", and"
+    comma_and = ", and "
     last_element = array.pop
     str = array.join(", ")
     new_arr << str
