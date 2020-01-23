@@ -11,6 +11,7 @@ def oxford_comma(array)
     # pop last element off of the array + save that into a var
     # join remaining array with commas
     # add last element again with proper English syntax
+    new_arr = []
     comma_and = ", and"
     last_element = array.pop
     array = array.join(", ")
