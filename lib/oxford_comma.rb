@@ -5,8 +5,8 @@ def oxford_comma(array)
   if array.size == 1
     array.join
   end
-  comma_and = ", and "
-  last_element = array.pop
-  array.join(', ')
-  array.push(comma_and)
+  # comma_and = ", and "
+  # last_element = array.pop
+  # array.join(', ')
+  # array.push(comma_and)
 end
