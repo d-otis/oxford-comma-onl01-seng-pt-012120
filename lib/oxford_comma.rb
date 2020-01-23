@@ -6,9 +6,11 @@ def oxford_comma(array)
     array.join
   elsif array.size == 2
     array.join(" and ")
+  else
+    comma_and = ", and "
+  last_element = array.pop
+  array.join(', ')
+  array.push(comma_and)
   end
-  # comma_and = ", and "
-  # last_element = array.pop
-  # array.join(', ')
-  # array.push(comma_and)
+
 end
