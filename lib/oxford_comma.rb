@@ -1,3 +1,5 @@
+ex = ["kiwi", "durian", "starfruit"]
+
 def oxford_comma(array)
   # pop last element off of the array + save that into a var
   # join remaining array with commas
@@ -14,4 +16,4 @@ def oxford_comma(array)
   end
 end
 
-oxford_comma()
+oxford_comma(ex)
