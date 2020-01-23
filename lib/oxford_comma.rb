@@ -11,7 +11,7 @@ def oxford_comma(array)
   elsif array.size == 2
     array.join(" and ")
   else
-    comma_and = ", and "
+    comma_and = ", and"
     last_element = array.pop
     array.join(", ")
     # binding.pry
