@@ -3,7 +3,7 @@ def oxford_comma(array)
   # join remaining array with commas
   # add last element again with proper English syntax
   if array.size == 1
-    array.to_s
+    array.join
   end
   comma_and = ", and "
   last_element = array.pop
