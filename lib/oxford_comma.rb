@@ -1,3 +1,5 @@
+require "pry"
+
 ex = ["kiwi", "durian", "starfruit"]
 
 def oxford_comma(array)
