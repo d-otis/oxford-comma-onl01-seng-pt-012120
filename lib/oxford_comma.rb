@@ -17,12 +17,8 @@ def oxford_comma(array)
     str = array.join(", ")
     new_arr << str
     new_arr << comma_and
-    binding.pry
-    array << last_element
-    array.push(comma_and)
-    array.push(last_element)
-    array.join()
-    binding.pry
+    new_arr << last_element
+    new_arr.join()
   end
 end
 
